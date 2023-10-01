@@ -22,6 +22,7 @@
 		626CA1472AC9895B00ABB9FE /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626CA1462AC9895B00ABB9FE /* Alert.swift */; };
 		626CA1492AC98FE100ABB9FE /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626CA1482AC98FE100ABB9FE /* Color+Ext.swift */; };
 		626CA14B2AC9906E00ABB9FE /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626CA14A2AC9906E00ABB9FE /* LoadingView.swift */; };
+		626CA14D2AC99D4400ABB9FE /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626CA14C2AC99D4400ABB9FE /* RemoteImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		626CA1462AC9895B00ABB9FE /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		626CA1482AC98FE100ABB9FE /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
 		626CA14A2AC9906E00ABB9FE /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		626CA14C2AC99D4400ABB9FE /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,21 +75,13 @@
 		626CA1272AC7067B00ABB9FE /* Appetizers */ = {
 			isa = PBXGroup;
 			children = (
+				626CA1562AC9A24900ABB9FE /* Model */,
+				626CA1522AC9A1B600ABB9FE /* Utilities */,
+				626CA1572AC9A28A00ABB9FE /* Views */,
+				626CA14E2AC9A12300ABB9FE /* Screens */,
 				626CA1282AC7067B00ABB9FE /* AppetizersApp.swift */,
-				626CA12A2AC7067B00ABB9FE /* AppetizerTabView.swift */,
-				626CA14A2AC9906E00ABB9FE /* LoadingView.swift */,
-				626CA13C2AC7119400ABB9FE /* Appetizer.swift */,
 				626CA12C2AC7067B00ABB9FE /* Assets.xcassets */,
 				626CA12E2AC7067B00ABB9FE /* Preview Content */,
-				626CA1362AC7095700ABB9FE /* AppetizerListView.swift */,
-				626CA1482AC98FE100ABB9FE /* Color+Ext.swift */,
-				626CA1462AC9895B00ABB9FE /* Alert.swift */,
-				626CA1442AC9393F00ABB9FE /* AppetizerListViewModel.swift */,
-				626CA1402AC92FA900ABB9FE /* NetworkManager.swift */,
-				626CA1422AC92FB900ABB9FE /* APError.swift */,
-				626CA13E2AC92CDD00ABB9FE /* AppetizerListCell.swift */,
-				626CA1382AC7096700ABB9FE /* AccountView.swift */,
-				626CA13A2AC7097400ABB9FE /* OrderView.swift */,
 			);
 			path = Appetizers;
 			sourceTree = "<group>";
@@ -98,6 +92,119 @@
 				626CA12F2AC7067B00ABB9FE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		626CA14E2AC9A12300ABB9FE /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				626CA12A2AC7067B00ABB9FE /* AppetizerTabView.swift */,
+				626CA1512AC9A13F00ABB9FE /* AppetizerListView */,
+				626CA1502AC9A13500ABB9FE /* AccountView */,
+				626CA14F2AC9A12D00ABB9FE /* OrderView */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		626CA14F2AC9A12D00ABB9FE /* OrderView */ = {
+			isa = PBXGroup;
+			children = (
+				626CA13A2AC7097400ABB9FE /* OrderView.swift */,
+			);
+			path = OrderView;
+			sourceTree = "<group>";
+		};
+		626CA1502AC9A13500ABB9FE /* AccountView */ = {
+			isa = PBXGroup;
+			children = (
+				626CA1382AC7096700ABB9FE /* AccountView.swift */,
+			);
+			path = AccountView;
+			sourceTree = "<group>";
+		};
+		626CA1512AC9A13F00ABB9FE /* AppetizerListView */ = {
+			isa = PBXGroup;
+			children = (
+				626CA1442AC9393F00ABB9FE /* AppetizerListViewModel.swift */,
+				626CA1362AC7095700ABB9FE /* AppetizerListView.swift */,
+			);
+			path = AppetizerListView;
+			sourceTree = "<group>";
+		};
+		626CA1522AC9A1B600ABB9FE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				626CA1552AC9A1FB00ABB9FE /* Alerts */,
+				626CA1542AC9A1F100ABB9FE /* Extensions */,
+				626CA1532AC9A1E700ABB9FE /* Managers */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		626CA1532AC9A1E700ABB9FE /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				626CA1402AC92FA900ABB9FE /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		626CA1542AC9A1F100ABB9FE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				626CA1482AC98FE100ABB9FE /* Color+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		626CA1552AC9A1FB00ABB9FE /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				626CA1422AC92FB900ABB9FE /* APError.swift */,
+				626CA1462AC9895B00ABB9FE /* Alert.swift */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		626CA1562AC9A24900ABB9FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				626CA13C2AC7119400ABB9FE /* Appetizer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		626CA1572AC9A28A00ABB9FE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				626CA15A2AC9A2C900ABB9FE /* Image */,
+				626CA1592AC9A2BA00ABB9FE /* Cells */,
+				626CA1582AC9A29300ABB9FE /* UIKit Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		626CA1582AC9A29300ABB9FE /* UIKit Components */ = {
+			isa = PBXGroup;
+			children = (
+				626CA14A2AC9906E00ABB9FE /* LoadingView.swift */,
+			);
+			path = "UIKit Components";
+			sourceTree = "<group>";
+		};
+		626CA1592AC9A2BA00ABB9FE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				626CA13E2AC92CDD00ABB9FE /* AppetizerListCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		626CA15A2AC9A2C900ABB9FE /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				626CA14C2AC99D4400ABB9FE /* RemoteImage.swift */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +286,7 @@
 				626CA12B2AC7067B00ABB9FE /* AppetizerTabView.swift in Sources */,
 				626CA1412AC92FA900ABB9FE /* NetworkManager.swift in Sources */,
 				626CA1292AC7067B00ABB9FE /* AppetizersApp.swift in Sources */,
+				626CA14D2AC99D4400ABB9FE /* RemoteImage.swift in Sources */,
 				626CA1472AC9895B00ABB9FE /* Alert.swift in Sources */,
 				626CA1372AC7095700ABB9FE /* AppetizerListView.swift in Sources */,
 				626CA14B2AC9906E00ABB9FE /* LoadingView.swift in Sources */,
