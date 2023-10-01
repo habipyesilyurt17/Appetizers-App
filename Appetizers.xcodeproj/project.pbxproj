@@ -20,6 +20,8 @@
 		626CA1432AC92FB900ABB9FE /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626CA1422AC92FB900ABB9FE /* APError.swift */; };
 		626CA1452AC9393F00ABB9FE /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626CA1442AC9393F00ABB9FE /* AppetizerListViewModel.swift */; };
 		626CA1472AC9895B00ABB9FE /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626CA1462AC9895B00ABB9FE /* Alert.swift */; };
+		626CA1492AC98FE100ABB9FE /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626CA1482AC98FE100ABB9FE /* Color+Ext.swift */; };
+		626CA14B2AC9906E00ABB9FE /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626CA14A2AC9906E00ABB9FE /* LoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		626CA1422AC92FB900ABB9FE /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
 		626CA1442AC9393F00ABB9FE /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
 		626CA1462AC9895B00ABB9FE /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		626CA1482AC98FE100ABB9FE /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		626CA14A2AC9906E00ABB9FE /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,10 +75,12 @@
 			children = (
 				626CA1282AC7067B00ABB9FE /* AppetizersApp.swift */,
 				626CA12A2AC7067B00ABB9FE /* AppetizerTabView.swift */,
+				626CA14A2AC9906E00ABB9FE /* LoadingView.swift */,
 				626CA13C2AC7119400ABB9FE /* Appetizer.swift */,
 				626CA12C2AC7067B00ABB9FE /* Assets.xcassets */,
 				626CA12E2AC7067B00ABB9FE /* Preview Content */,
 				626CA1362AC7095700ABB9FE /* AppetizerListView.swift */,
+				626CA1482AC98FE100ABB9FE /* Color+Ext.swift */,
 				626CA1462AC9895B00ABB9FE /* Alert.swift */,
 				626CA1442AC9393F00ABB9FE /* AppetizerListViewModel.swift */,
 				626CA1402AC92FA900ABB9FE /* NetworkManager.swift */,
@@ -169,11 +175,13 @@
 				626CA13F2AC92CDD00ABB9FE /* AppetizerListCell.swift in Sources */,
 				626CA1452AC9393F00ABB9FE /* AppetizerListViewModel.swift in Sources */,
 				626CA1392AC7096700ABB9FE /* AccountView.swift in Sources */,
+				626CA1492AC98FE100ABB9FE /* Color+Ext.swift in Sources */,
 				626CA12B2AC7067B00ABB9FE /* AppetizerTabView.swift in Sources */,
 				626CA1412AC92FA900ABB9FE /* NetworkManager.swift in Sources */,
 				626CA1292AC7067B00ABB9FE /* AppetizersApp.swift in Sources */,
 				626CA1472AC9895B00ABB9FE /* Alert.swift in Sources */,
 				626CA1372AC7095700ABB9FE /* AppetizerListView.swift in Sources */,
+				626CA14B2AC9906E00ABB9FE /* LoadingView.swift in Sources */,
 				626CA13B2AC7097400ABB9FE /* OrderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
