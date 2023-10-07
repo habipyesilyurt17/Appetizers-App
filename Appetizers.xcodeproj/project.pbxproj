@@ -23,6 +23,9 @@
 		626CA1492AC98FE100ABB9FE /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626CA1482AC98FE100ABB9FE /* Color+Ext.swift */; };
 		626CA14B2AC9906E00ABB9FE /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626CA14A2AC9906E00ABB9FE /* LoadingView.swift */; };
 		626CA14D2AC99D4400ABB9FE /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626CA14C2AC99D4400ABB9FE /* RemoteImage.swift */; };
+		626CA15C2AD1119400ABB9FE /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626CA15B2AD1119400ABB9FE /* AppetizerDetailView.swift */; };
+		626CA15F2AD11BD400ABB9FE /* APButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626CA15E2AD11BD400ABB9FE /* APButton.swift */; };
+		626CA1612AD11CAA00ABB9FE /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626CA1602AD11CAA00ABB9FE /* XDismissButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +46,9 @@
 		626CA1482AC98FE100ABB9FE /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
 		626CA14A2AC9906E00ABB9FE /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		626CA14C2AC99D4400ABB9FE /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		626CA15B2AD1119400ABB9FE /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
+		626CA15E2AD11BD400ABB9FE /* APButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APButton.swift; sourceTree = "<group>"; };
+		626CA1602AD11CAA00ABB9FE /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +132,7 @@
 			children = (
 				626CA1442AC9393F00ABB9FE /* AppetizerListViewModel.swift */,
 				626CA1362AC7095700ABB9FE /* AppetizerListView.swift */,
+				626CA15B2AD1119400ABB9FE /* AppetizerDetailView.swift */,
 			);
 			path = AppetizerListView;
 			sourceTree = "<group>";
@@ -176,6 +183,7 @@
 		626CA1572AC9A28A00ABB9FE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				626CA15D2AD11BBB00ABB9FE /* Buttons */,
 				626CA15A2AC9A2C900ABB9FE /* Image */,
 				626CA1592AC9A2BA00ABB9FE /* Cells */,
 				626CA1582AC9A29300ABB9FE /* UIKit Components */,
@@ -205,6 +213,15 @@
 				626CA14C2AC99D4400ABB9FE /* RemoteImage.swift */,
 			);
 			path = Image;
+			sourceTree = "<group>";
+		};
+		626CA15D2AD11BBB00ABB9FE /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				626CA15E2AD11BD400ABB9FE /* APButton.swift */,
+				626CA1602AD11CAA00ABB9FE /* XDismissButton.swift */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,14 +296,17 @@
 			files = (
 				626CA13D2AC7119400ABB9FE /* Appetizer.swift in Sources */,
 				626CA1432AC92FB900ABB9FE /* APError.swift in Sources */,
+				626CA1612AD11CAA00ABB9FE /* XDismissButton.swift in Sources */,
 				626CA13F2AC92CDD00ABB9FE /* AppetizerListCell.swift in Sources */,
 				626CA1452AC9393F00ABB9FE /* AppetizerListViewModel.swift in Sources */,
 				626CA1392AC7096700ABB9FE /* AccountView.swift in Sources */,
 				626CA1492AC98FE100ABB9FE /* Color+Ext.swift in Sources */,
+				626CA15F2AD11BD400ABB9FE /* APButton.swift in Sources */,
 				626CA12B2AC7067B00ABB9FE /* AppetizerTabView.swift in Sources */,
 				626CA1412AC92FA900ABB9FE /* NetworkManager.swift in Sources */,
 				626CA1292AC7067B00ABB9FE /* AppetizersApp.swift in Sources */,
 				626CA14D2AC99D4400ABB9FE /* RemoteImage.swift in Sources */,
+				626CA15C2AD1119400ABB9FE /* AppetizerDetailView.swift in Sources */,
 				626CA1472AC9895B00ABB9FE /* Alert.swift in Sources */,
 				626CA1372AC7095700ABB9FE /* AppetizerListView.swift in Sources */,
 				626CA14B2AC9906E00ABB9FE /* LoadingView.swift in Sources */,
